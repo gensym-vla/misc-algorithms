@@ -2,7 +2,7 @@ def cyk(word, grammar, verbose=False):
     """
     A not neccesarily efficient implementation of the Cocke-Younger-Kasami
     algorithm.
-    Grammar should be represented as a dictionary, whose keys are the
+    The grammar should be represented as a dictionary, whose keys are the
     nonterminals.
     The hashvalues should be lists containing the productions.
     i.e 
