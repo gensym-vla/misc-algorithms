@@ -1,4 +1,3 @@
-import sys
 def levenshtein(str1, str2):
     """
     computes the levenshtein distance between to strings
