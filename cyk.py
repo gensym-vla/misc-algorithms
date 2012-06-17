@@ -27,7 +27,6 @@ def cyk(word, grammar, verbose=False):
             for k in range(j, j + i):
                 for rule in grammar:
                     for subclause in grammar[rule]:
-                        print rule, subclause
                         if any(B+C == subclause 
                                 for B in pyramide[j,k]
                                 for C in pyramide[k + 1, j + i]):
